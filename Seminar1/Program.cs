@@ -33,7 +33,7 @@ num = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine(num*num);
 
-*/
+ДЗ-1
 
 int num1 ,num2;
 
@@ -51,6 +51,27 @@ else
 {
     Console.WriteLine("Первое число больше и это  : " + num1 );
 }
+
+ДЗ-2
+
+int num1 , num2 , num3, max ;
+
+Console.WriteLine(" Input number 1 " );
+num1 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine (" Input number 2 " );
+num2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine(" Input number 3 " );
+num3 = Convert.ToInt32(Console.ReadLine());
+
+max = num1;
+
+if (num2 > max) max = num2;
+
+if (num3 > max) max = num3;
+
+Console.WriteLine( " Maximum number is " + max);
 
 
 
