@@ -73,7 +73,7 @@ if (num3 > max) max = num3;
 
 Console.WriteLine( " Maximum number is " + max);
 
-*/
+ДЗ-3
 
 int num;
 
@@ -84,15 +84,40 @@ num = Convert.ToInt32(Console.ReadLine());
 if (num % 2 == 0 )
    
 {   
-    Console.Write.Line("Число четное ");
+    Console.WriteLine("Число четное ");
 
 }
 
-else   (num % 2 != 0 )
+else   
 {   
      
     Console.WriteLine("Число нечетное ");
 }
+
+*/
+
+int num, i ;
+
+i=2;
+
+Console.WriteLine ("Input number");
+num = Convert.ToInt32(Console.ReadLine());
+
+while (i <= num ) 
+{
+    Console.WriteLine(i);
+    i=i+2;
+
+}
+
+
+/* int num ; 
+
+Console.WriteLine("Input number");
+num = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine(num % 2 == 0 ? "Четное" : "Не четное");
+*/
 
 
 
