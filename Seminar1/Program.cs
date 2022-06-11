@@ -1,4 +1,5 @@
-﻿/*int num; 
+﻿/*
+int num; 
 
 Console.Write("Введите целое число : ");
 num = Convert.ToInt32(Console.ReadLine());
@@ -94,7 +95,7 @@ else
     Console.WriteLine("Число нечетное ");
 }
 
-*/
+
 
 int num, i ;
 
@@ -105,19 +106,230 @@ num = Convert.ToInt32(Console.ReadLine());
 
 while (i <= num ) 
 {
-    Console.WriteLine(i);
+    Console.WriteLine(i );
     i=i+2;
 
 }
 
 
-/* int num ; 
+ int num ; 
 
 Console.WriteLine("Input number");
 num = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine(num % 2 == 0 ? "Четное" : "Не четное");
-*/
+
+
+
+int Max(int arg1, int arg2, int arg3)
+{
+    int result=arg1;
+    if(arg2>result) result=arg2;
+    if(arg3>result) result=arg3;
+    return result;
+}
+
+int a1=5;
+int b1=8;
+int c1=2;
+int a2=12;
+int b2=1;
+int c2=4;
+int a3=112;
+int b3=11;
+int c3=14;
+
+int max1=Max(a1,b1,c1);
+
+Console.WriteLine(max1);
+
+
+int Max(int a,int b,int c)
+ {
+     a=2;
+     b=5 ;
+     c=1;
+     
+ }
+ Console.WriteLine(Max);
+ 
+ 
+ Семинар 2
+
+
+
+int SumTwoNum ( int num1,int num2 )
+{ 
+    int sum = num1+num2;
+    return sum;
+
+}
+
+Console.WriteLine("input num1");
+int num1=Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("input num2");
+int num2=Convert.ToInt32(Console.ReadLine());
+int cy=SumTwoNum(num1,num2);
+
+Console.WriteLine(cy);
+
+
+
+
+
+
+/* int num1,num2,sum;
+
+Console.WriteLine("input num1");
+num1=Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("input num2");
+num2=Convert.ToInt32(Console.ReadLine());
+sum=num1+num2;
+
+
+
+Console.WriteLine(sum);
+
+Дом Задание ,Задача 2 (Вывести второе число )по второму семинару
+
+____________________________________________
+
+
+int TwoNum (int num)
+{
+    
+    if (num > 99 && num < 1000 )
+    {
+        int pip = num/ 10 % 10;
+        return pip;
+       
+    }
+    else
+    {
+
+        return -1;
+
+    }
+}
+
+Console.WriteLine("input three digit number");
+int num1 = Convert.ToInt32(Console.ReadLine());
+
+int resultat = TwoNum(num1);
+if (resultat == -1)
+{
+    Console.WriteLine("Your Number incorrect");
+}
+
+Console.WriteLine(resultat);
+
+/*
+_______________________________________
+
+int num1,pip;
+
+Console.WriteLine("input three digit number");
+num1 = Convert.ToInt32(Console.ReadLine());
+
+if(num1 > 99 && num1 < 1000)
+{
+    pip = num1 / 10 % 10;
+    Console.WriteLine(pip);
+}
+else 
+{
+    Console.WriteLine("Bad number");
+}
+________________________________________
+
+
+
+___________________________________________________
+ ДЗ 2 семинар 3 задача
+int Weekend (int num)
+
+{
+    if (num >= 1 && num <= 5)
+    { 
+      
+        return -1;
+    }
+    if (num >=6 && num <=7)
+    {
+        
+        return -2;
+    }
+    if (num > 7)
+    {
+       
+       return -3;  
+    }
+    return num;
+    
+}
+int num1;
+
+Console.WriteLine("Input number of day week");
+num1 = Convert.ToInt32(Console.ReadLine());
+
+int resu=Weekend(num1);
+if (resu == -1)
+{
+    Console.WriteLine("No, It is a work day");
+}
+if (resu == -2)
+{
+    Console.WriteLine("Yes, it is a Holiday");
+}
+if (resu == -3 )
+{
+    Console.WriteLine("Incorrect day of te week");
+}
+____________________________________________________
+
+
+
+/*
+int num1;
+
+Console.WriteLine("Input number of day week");
+num1 = Convert.ToInt32(Console.ReadLine());
+
+if (num1 >= 1 && num1 <= 5)
+    {
+        Console.WriteLine("No, It is a work day");
+    }
+if (num1 >= 6 && num1 <= 7)
+    {
+       Console.WriteLine("Yes, it is a Holiday"); 
+    }
+if (num1 > 7)
+{
+    Console.WriteLine("Incorrect day of te week");
+}
+
+   */
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
