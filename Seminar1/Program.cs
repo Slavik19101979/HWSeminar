@@ -157,6 +157,8 @@ int Max(int a,int b,int c)
  Семинар 2
 
 
+__________________________________________
+Метод сложения двух чисел
 
 int SumTwoNum ( int num1,int num2 )
 { 
@@ -179,7 +181,7 @@ Console.WriteLine(cy);
 
 
 
-/* int num1,num2,sum;
+ int num1,num2,sum;
 
 Console.WriteLine("input num1");
 num1=Convert.ToInt32(Console.ReadLine());
@@ -225,7 +227,7 @@ if (resultat == -1)
 
 Console.WriteLine(resultat);
 
-/*
+
 _______________________________________
 
 int num1,pip;
@@ -291,7 +293,7 @@ ____________________________________________________
 
 
 
-/*
+
 int num1;
 
 Console.WriteLine("Input number of day week");
@@ -310,7 +312,80 @@ if (num1 > 7)
     Console.WriteLine("Incorrect day of te week");
 }
 
-   */
+   
+_____________________________________________________
+
+Вторая задача по семирнару 2(Без метода)
+
+
+int num;
+
+Console.WriteLine("Input Number");
+num=Convert.ToInt32(Console.ReadLine());
+
+if (num < 100)
+    {
+        Console.WriteLine("А вот третьей цифры то и нету))");
+    }
+
+
+while  (num > 999 ) 
+{
+    num = num/10;  
+    
+}
+if (num > 99 && num < 1000)
+
+   { num = num % 10;
+    Console.WriteLine(num);
+    
+    }
+  
+
+
+__________________________________________
+Задача 2(метод)(Семинар 2)
+
+int ThGig(int num)
+{
+    if (num < 100)
+    {
+        return -1;
+    }
+    while (num > 999 )
+    {
+        num = num/10;
+        
+    }
+     if (num > 99 && num < 1000)
+
+   { 
+       num = num % 10;
+       }
+       
+    return num;   
+    
+}
+int num1;
+
+Console.WriteLine("Введите номер");
+num1=Convert.ToInt32(Console.ReadLine());
+
+int resultat=ThGig(num1);
+Console.WriteLine(resultat);
+
+if(resultat == -1)
+{
+    Console.WriteLine("А вот третьей цифры то и нету))");
+}
+________________________________________________
+
+*/
+
+ 
+
+
+
 
 
 
