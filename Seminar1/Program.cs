@@ -380,17 +380,59 @@ if(resultat == -1)
 }
 ________________________________________________
 
-*/
 
+*/
+//_____________________________________________________
+
+//Семинар 3
+
+/*
+int FinfQuart(int x,int y)
+{
+    if (x>0 && y>0) return 1;
+    if (x<0 && y>0) return 2;
+    if (x<0 && y<0) return 3;
+    if (x>0 && y<0) return 4;
+    return -1;                           
+}
+
+int res= FinfQuart(2,4);
+if (res == -1) Console.WriteLine("wrong");
+else Console.WriteLine(res);
+
+
+/*
+
+void QuadN(int n)
+{
+    int count=0;
+    int quad;
+    while (count <= n ) 
+    {
+        
+        count ++;
+        quad=n*n;
+        
+        
+    }
+    
+
+}
+int num1;
+Console.WriteLine("Введите номер");
+num1=Convert.ToInt32(Console.ReadLine());
+
+QuadN(num1);
+
+
+/*int num;
+ Console.WriteLine("введите число");
+ num=Convert.ToInt32(Console.ReadLine());*/
  
 
 
-
-
-
-
-
-
+sbyte ur=3;
+Console.WriteLine(ur);
 
 
 
